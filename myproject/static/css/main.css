@@ -22,12 +22,12 @@
 
 body{
   font-family: 'Montserrat', sans-serif;
-  background-color: #0b2e13;
+  background-color: #FFF8F3;
   color: #494949;
 }
 
 .toolbar{
-  background-color: #F46666;
+  background-color: #F98282;
   width: 100%;
   position: fixed;
   top: 0;
@@ -62,7 +62,7 @@ body{
 
 .toolbar .apply{
   background-color: #FFF8F3;
-  color: #F46666;
+  color: #F98282;
   border-radius: 25px;
   padding: auto 0;
   height: 20px;
@@ -101,23 +101,25 @@ h2{
 
 .calendar{
   color: #FFF8F3;
-  background-color: #F46666;
+  background-color: #F98282;
   width: 100%;
   position: inherit;
-  display: inline-grid;
 
 }
 
 .calendar ul{
-  text-align: center;
-  padding: 3em;
+  text-align: left;
+  padding: 2em;
+}
+
+.calendar img{
+    width: 80%;
 }
 
 .calendar ul li{
   list-style-type: none;
-  display: inline-block;
+    padding: 1em;
   width: 40%;
-
 }
 
 .calendar-text h1{
@@ -128,7 +130,13 @@ h2{
   text-align: left;
 }
 
+.bridge_right{
+    position: inherit;
+    float: right;
+    bottom: 0;
 
+
+}
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
